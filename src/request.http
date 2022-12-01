@@ -1,0 +1,10 @@
+POST http://localhost:8080/v2/files/upload-file/8c2da9b5-29b1-4393-8eda-982fe68c63ec
+Content-Type: multipart/form-data; boundary=abcd
+
+--abcd
+Content-Disposition: form-data; name="text"; filename="input.txt"
+
+Text
+--abcd--
+
+
